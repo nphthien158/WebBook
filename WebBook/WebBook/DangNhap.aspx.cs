@@ -28,18 +28,14 @@ namespace WebBook
             }
             else
             {
-                lbThongBao.Text = "Đăng nhập thành công";
-                //luu lại trang thái đã đăng nhập thành công của người dùng vào Session
-                Session["USER"] = tk;
-                if (tk.VaiTro == "QLWed") //neu nguoi dung co vai tro la CANBODAOTAO
+                Session["user"] = tk;
+                if (tk.VaiTro=="user")
                 {
-                    //điều hướng người dùng đến trang dành cho đối tượng là Cán bộ đào tạo
-                    Response.Redirect("Default.aspx");
+                    Response.Redirect("default.aspx");
                 }
-                else if (tk.VaiTro == "Khach")
+                else if(tk.VaiTro=="admin")
                 {
-                    //điều hướng người dùng đến trang dành cho sinh viên
-                    Response.Redirect("Khach.aspx");
+                    Response.Redirect("admin.aspx");
                 }
             }
         }

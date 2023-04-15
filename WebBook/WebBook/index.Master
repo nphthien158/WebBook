@@ -70,9 +70,9 @@
                                             <a href="#" class="search-button search-toggle" data-selector="#header-wrap">
                                                 <i class="icon icon-search"></i>
                                             </a>
-                                            <form role="search" method="get" class="search-box">
+                                            <%--<form role="search" method="get" class="search-box">
                                                 <input class="search-field text search-input" placeholder="Search" type="search">
-                                            </form>
+                                            </form>--%>
                                         </div>
                                     </div>
 
@@ -103,7 +103,7 @@
                                     <div class="main-menu stellarnav">
                                         <ul class="menu-list">
                                             <li class="menu-item"><a href="default.aspx" data-effect="Home">Home</a></li>
-                                            <li class="menu-item"><a href="tracuu.aspx" class="nav-link" data-effect="About">Seach</a></li>
+                                            <li class="menu-item"><a href="tracuu.aspx" class="nav-link" data-effect="About">Search</a></li>
                                             <li class="menu-item"><a href="xemsach.aspx" class="nav-link" data-effect="Shop">Shop</a></li>
                                             <li class="menu-item"><a href="https://www.facebook.com/phuocthien158" class="nav-link" data-effect="Contact">Contact</a></li>
                                         </ul>
@@ -250,7 +250,7 @@
                                             <div class="row">
 
                                                 <div class="col-md-6">
-                                                    <p>Cover © 2023 by Lê Tân Thuận - Nguyễn Phước Thiện</a></p>
+                                                    <p>Cover © 2023 by Lê Tân Thuận - Nguyễn Phước Thiện</p>
                                                 </div>
 
                                                 <div class="col-md-6">

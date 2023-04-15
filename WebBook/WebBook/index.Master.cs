@@ -11,18 +11,17 @@ namespace WebBook
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            TaiKhoan tk = (TaiKhoan)Session["USER"];
-            lblacc.Text = "Thuan";
-            
-            if (tk == null || tk.VaiTro != "Khach")
-            {
-                Response.Redirect("DangNhap.aspx");
-            }
-            else
-            {
-                lblacc.Text = "Tên đăng nhập:" + tk.TenDangNhap;
-            }
+            //TaiKhoan tk = (TaiKhoan)Session["USER"];
+            //lblacc.Text = "Thuan";
+
+            //if (tk == null || tk.VaiTro != "Khach")
+            //{
+            //    Response.Redirect("DangNhap.aspx");
+            //}
+            //else
+            //{
+            //    lblacc.Text = "Tên đăng nhập:" + tk.TenDangNhap;
+            //}
         }
-    }
     }
 }

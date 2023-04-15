@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="add.aspx" />
+    <Content Include="admin.aspx" />
     <Content Include="css\ajax-loader.gif" />
     <Content Include="css\normalize.css" />
     <Content Include="css\vendor.css" />
@@ -157,6 +158,7 @@
     <Content Include="Uploads\delete.gif" />
     <Content Include="Uploads\disk.gif" />
     <Content Include="Uploads\download.png" />
+    <Content Include="Uploads\noimage.png" />
     <Content Include="Web.config" />
     <Content Include="XemChiTiet.aspx" />
     <Content Include="xemgio.aspx" />
@@ -169,6 +171,13 @@
     </Compile>
     <Compile Include="add.aspx.designer.cs">
       <DependentUpon>add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="DangKy.aspx.cs">
       <DependentUpon>DangKy.aspx</DependentUpon>
