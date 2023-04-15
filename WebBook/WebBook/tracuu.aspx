@@ -20,7 +20,6 @@
             <asp:BoundField DataField="SoLuongTon" HeaderText="Số Lượng Tồn" SortExpression="SoLuongTon" />
             <asp:TemplateField HeaderText="Tác Vụ">
                 <ItemTemplate>
-                    <asp:Button ID="btn" CssClass="btn btn-success" Text="Xóa" CommandName="Delete" runat="server" />
                     <asp:Button ID="btnadd" CssClass="btn btn-success" Text="Cart" OnClick="btnadd_Click" CommandArgument='<%# Eval("MaSach") %>' runat="server" />
                 </ItemTemplate>
             </asp:TemplateField>
